@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Video Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload a Special Video</h1>
+        <p>Upload a video to complete this beautiful journey.</p>
+
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="videoFile" accept="video/*" required>
+            <button type="submit">Upload Video</button>
+        </form>
+
+        <!-- Back to Gallery Button -->
+        <div class="back-button">
+            <a href="gallery.html">
+                <button>Back to Gallery</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
